@@ -1,6 +1,5 @@
 > [!IMPORTANT]
-> This is no longer updated. The repo has moved to [GitLab](https://gitlab.com/tf7software/LupineVault) ___Until further notice___
-
+> This is no longer updated. The repo has moved to [GitLab](https://gitlab.com/tf7software/LupineVault) ___Why this happened:___ GitHub was not large enough to accommodate LupineVault 
 
 
 
