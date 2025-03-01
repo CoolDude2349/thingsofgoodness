@@ -1,0 +1,9 @@
+<!-- Try to get to this page and register the sw.-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>"serviceWorker"in navigator&&window.addEventListener("load",(()=>{navigator.serviceWorker.register("/thingsofgoodness/sw.js").then((e=>{console.log("Service Worker registered with scope:",e.scope)})).catch((e=>{console.log("Service Worker registration failed:",e)}))}));</script>
+</body>
+
+</html>
