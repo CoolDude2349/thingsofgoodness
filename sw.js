@@ -1,4 +1,4 @@
-const CACHE_NAME = 'offline-cache-v1';
+const CACHE_NAME = 'offline-cache-v2';
 
 self.addEventListener('install', (event) => {
     event.waitUntil(
@@ -40,6 +40,6 @@ self.addEventListener('fetch', (event) => {
                 });
                 return networkResponse;
             });
-        }).catch(() => caches.match('./')) // Fallback to root if offline
+        }).catch(() => caches.match('/')) // Fallback to root if offline
     );
 });
